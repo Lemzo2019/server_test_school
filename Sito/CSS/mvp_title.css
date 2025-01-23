@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.text-title {
+    text-align: center;
+    font-size: 7vw;
+}
+
+.text-title-small {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+text-text {
+    font-size: 7vw;
+}
+
+img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: aqua;
+
+}
+
+p {
+    text-align: center;
+}
+
+.box-left {
+    margin: 5%;
+    height: 35vi;
+    width: 35vi;
+    border: 2px solid;
+    float: left;
+}
+
+.box-right {
+    margin: 5%;
+    height: 35vi;
+    width: 35vi;
+    border: 2px solid;
+    float: right;
+}
+
+.box-center {
+    margin: 5%;
+    margin-left: 5%;
+    height: 25vi;
+    width: 89.4%;
+    border: 2px solid;
+    float: left;
+}
+
