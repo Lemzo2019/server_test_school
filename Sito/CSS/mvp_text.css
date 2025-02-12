@@ -16,11 +16,6 @@ body {
     max-height: 100%;
     max-width: 100%;
 }
-#big-2 {
-    box-sizing: border-box;
-    background-image: url(img_test.png);
-    margin-top: -2vi;
-}
 
 .bottom {
     width: 10vw;                  /* Используем vw вместо vi, чтобы размеры были пропорциональны ширине окна */
@@ -28,7 +23,6 @@ body {
     border: 2px solid black;
     background-color: aqua;
     position: fixed;
-    z-index: 10;
     border-radius: 50%;
     top: calc(100vh - 10vw - 20px);  /* Учитываем размеры элемента, чтобы он не выходил за пределы экрана */
     left: calc(100vw - 10vw - 20px); /* Учитываем размеры элемента, чтобы он не выходил за пределы экрана */
@@ -40,20 +34,19 @@ body {
     margin-top: 2vi;
     display: flex;           /* Используем Flexbox для выравнивания элементов по горизонтали */
     align-items: center;     /* Центрируем элементы по вертикали */
-    justify-content: flex-start;  /* Текст и картинка будут выровнены слева */
+    justify-content: flex-start; /* Текст и картинка будут выровнены слева */
 }
 .box-img-right {
     margin-left: 2vi;
     margin-top: 2vi;
     display: flex;           /* Используем Flexbox для выравнивания элементов по горизонтали */
-    align-items: start;     /* Центрируем элементы по вертикали */
-    justify-content: space-between;
+    align-items: center;     /* Центрируем элементы по вертикали */
+    justify-content: flex-end; /* Текст и картинка будут выровнены слева */
 }
 .img {
     width: 45vi;            /* Устанавливаем фиксированную ширину для изображения */
     height: auto;            /* Сохраняем пропорции изображения */
     margin-right: 2vi;      /* Отступ между изображением и текстом */
-    margin-top: 2vi;
 }
 
 
@@ -62,8 +55,7 @@ body {
     font-size: 3.5vi;         /* Размер шрифта */
     line-height: 1.5;        /* Межстрочный интервал */
     border: 1px solid;
-    margin-right: 2vw;
-    margin-top: 2vi;
+    margin-right: 2vi;
     backdrop-filter: blur(20px);
     height: auto;
     width: 45vi;
@@ -73,8 +65,7 @@ body {
     font-size: 3.5vi;         /* Размер шрифта */
     line-height: 1.5;        /* Межстрочный интервал */
     border: 1px solid;
-    margin-right: 2vw;
-    margin-top: 2vi;
+    margin-right: 2vi;
     backdrop-filter: blur(20px);
     height: auto;
     width: 45vi;
@@ -85,7 +76,8 @@ body {
     margin-top: 3vi;
     font-size: 4vi;
     border: 2.5px solid rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(19px);
+
 }
 
 
@@ -98,9 +90,6 @@ body {
     color: white;
 }
 .line-center {
-    padding: 0.5vi;
-    padding-left: 0;
-    padding-right: 0;
     margin: 10px;
     margin-left: 0;
     margin-bottom: 0;
