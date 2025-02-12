@@ -12,9 +12,11 @@ body {
 }
 
 #big {
-    background-image: url(photo/Walper.jpg);
-    max-height: 100%;
-    max-width: 100%;
+    background-image: url(photo/Walper_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
 #big-2 {
     box-sizing: border-box;
@@ -59,33 +61,37 @@ body {
 
 .text_left {
     padding: 1.5vi;
-    font-size: 3.5vi;         /* Размер шрифта */
-    line-height: 1.5;        /* Межстрочный интервал */
+    font-size: 4vi;         /* Размер шрифта */
+    line-height: 2.5vh;        /* Межстрочный интервал */
     border: 1px solid;
     margin-right: 2vw;
     margin-top: 2vi;
     backdrop-filter: blur(20px);
     height: auto;
     width: 45vi;
+    color: rgba(255, 255, 255, 0.603);
 } 
 .text_right {
     padding: 1.5vi;
-    font-size: 3.5vi;         /* Размер шрифта */
-    line-height: 1.5;        /* Межстрочный интервал */
+    font-size: 2.244vh;         /* Размер шрифта */
+    line-height: 2.5vh;        /* Межстрочный интервал */
     border: 1px solid;
     margin-right: 2vw;
     margin-top: 2vi;
     backdrop-filter: blur(20px);
     height: auto;
     width: 45vi;
+    color: rgb(255, 255, 255, 0.603);
 } 
 .text_down {
+    padding: 1vw;
     margin-left: 2vi;
     margin-right: 2vi;
     margin-top: 3vi;
     font-size: 4vi;
-    border: 2.5px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(255, 255, 255);
     backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255, 0.603);
 }
 
 
@@ -110,4 +116,43 @@ body {
     text-align: center;
     background-color: black;
     color: white;
+}
+
+/* Тут всякий цвет у текста и уго размеры, вобщем такая мелочь */
+
+.text_1 {
+    display: flex;
+    padding-left: 4vw;
+}
+.text_2 {
+    display: flex;
+    padding-left: 8vw;
+}
+.text_ul_1 {
+    padding-left: 5vw;
+}
+
+.blok_text_up {
+    padding-top: 2.5vh;
+}
+
+.text_down_1 {
+    padding: 1vw;
+    margin-left: 20vi;
+    margin-right: 20vi;
+    margin-top: 3vi;
+    font-size: 4vi;
+    border: 2.5px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: black;
+}
+.text_down_2 {
+    padding: 2vw;
+    margin-left: 15vi;
+    margin-right: 19vi;
+    margin-top: 3vi;
+    font-size: 4vi;
+    border: 2.5px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: black;
 }
