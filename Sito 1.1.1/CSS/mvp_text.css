@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#big {
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#big-2 {
+    box-sizing: border-box;
+    background-color: gray;
+    margin-top: -2vi;
+}
+
+.bottom {
+    width: 14vw;                  /* Используем vw вместо vi, чтобы размеры были пропорциональны ширине окна */
+    height: 14vw;                 /* Используем vw для сохранения пропорций с шириной */
+    border: 2px solid black;
+    background-color: aqua;
+    position: fixed;
+    z-index: 10;
+    border-radius: 50%;
+    top: calc(100vh - 14vw - 20px);  /* Учитываем размеры элемента, чтобы он не выходил за пределы экрана */
+    left: calc(100vw - 16vw - 20px); /* Учитываем размеры элемента, чтобы он не выходил за пределы экрана */
+}
+
+
+.box-img-left {
+    margin-left: 2vi;
+    margin-top: 2vi;
+    display: flex;           /* Используем Flexbox для выравнивания элементов по горизонтали */
+    align-items: center;     /* Центрируем элементы по вертикали */
+    justify-content: flex-start;  /* Текст и картинка будут выровнены слева */
+}
+.box-img-right {
+    margin-left: 2vi;
+    margin-top: 2vi;
+    display: flex;           /* Используем Flexbox для выравнивания элементов по горизонтали */
+    align-items: start;     /* Центрируем элементы по вертикали */
+    justify-content: space-between;
+}
+.img {
+    width: 45vi;            /* Устанавливаем фиксированную ширину для изображения */
+    height: auto;            /* Сохраняем пропорции изображения */
+    margin-right: 2vi;      /* Отступ между изображением и текстом */
+    margin-top: 2vi;
+}
+
+
+.text_left {
+    padding: 1.5vi;
+    font-size: 4vi;         /* Размер шрифта */
+    line-height: 2.5vh;        /* Межстрочный интервал */
+    border: 1px solid;
+    margin-right: 2vw;
+    margin-top: 2vi;
+    backdrop-filter: blur(20px);
+    height: auto;
+    width: 45vi;
+    color: black;
+} 
+.text_right {
+    padding: 1.5vi;
+    font-size: 2.244vh;         /* Размер шрифта */
+    line-height: 2.5vh;        /* Межстрочный интервал */
+    border: 1px solid;
+    margin-right: 2vw;
+    margin-top: 2vi;
+    backdrop-filter: blur(20px);
+    height: auto;
+    width: 45vi;
+    color: black;
+} 
+.text_down {
+    padding: 1vw;
+    margin-left: 2vi;
+    margin-right: 2vi;
+    margin-top: 3vi;
+    font-size: 4vi;
+    border: 1px solid black;
+    backdrop-filter: blur(20px);
+    color: black;
+}
+
+
+.line {
+    height: 5vi;
+    font-size: 4vi;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.line-center {
+    padding: 0.5vi;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 5vi;
+    font-size: 4vi;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* Тут всякий цвет у текста и уго размеры, вобщем такая мелочь */
+
+.text_1 {
+    display: flex;
+    padding-left: 4vw;
+}
+.text_2 {
+    display: flex;
+    padding-left: 8vw;
+}
+.text_ul_1 {
+    padding-left: 5vw;
+}
+
+.blok_text_up {
+    padding-top: 2.5vh;
+}
+
+.text_down_1 {
+    padding: 1vw;
+    margin-left: 20vi;
+    margin-right: 20vi;
+    margin-top: 3vi;
+    font-size: 4vi;
+    border: 2.5px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: black;
+}
+.text_down_2 {
+    padding: 2vw;
+    margin-left: 15vi;
+    margin-right: 19vi;
+    margin-top: 3vi;
+    font-size: 4vi;
+    border: 2.5px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: black;
+}
