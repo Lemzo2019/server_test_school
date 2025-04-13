@@ -9,19 +9,9 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-#big {
-    background-color: gray;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-}
-#big-2 {
-    box-sizing: border-box;
-    background-color: gray;
-    margin-top: -2vi;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 }
 
 .bottom {
@@ -61,43 +51,51 @@ body {
 
 .text_left {
     padding: 1.5vi;
-    font-size: 4vi;         /* Размер шрифта */
+    font-size: 4vw;         /* Размер шрифта */
     line-height: 2.5vh;        /* Межстрочный интервал */
-    border: 1px solid;
     margin-right: 2vw;
     margin-top: 2vi;
-    backdrop-filter: blur(20px);
     height: auto;
     width: 45vi;
-    color: black;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #f5f7fa, #e2e6ea);
 } 
 .text_right {
     padding: 1.5vi;
     font-size: 2.244vh;         /* Размер шрифта */
-    line-height: 2.5vh;        /* Межстрочный интервал */
-    border: 1px solid;
+    line-height: 2.5vh;        /* Межстрочный интервал */;
     margin-right: 2vw;
-    margin-top: 2vi;
-    backdrop-filter: blur(20px);
+    margin-top: 2vi;   
     height: auto;
     width: 45vi;
-    color: black;
+    background: linear-gradient(135deg, #f5f7fa, #e2e6ea);
+    color: #333;
+    border-radius: 12px;
 } 
 .text_down {
-    padding: 1vw;
-    margin-left: 2vi;
-    margin-right: 2vi;
-    margin-top: 3vi;
-    font-size: 4vi;
-    border: 1px solid black;
-    backdrop-filter: blur(20px);
-    color: black;
+    padding: 3vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+    border: 1px solid #black;
+    border-radius: 12px;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa, #e2e6ea);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6rem;
+    word-wrap: break-word
 }
 
 
 .line {
-    height: 5vi;
-    font-size: 4vi;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 0;
+    margin-right: 0;
+    height: auto;
+    font-size: 2.7vh;
     width: 100%;
     text-align: center;
     background-color: black;
@@ -105,20 +103,20 @@ body {
 }
 .line-center {
     padding: 0.5vi;
-    padding-left: 0;
     padding-right: 0;
-    margin: 10px;
+    margin-up: 3.5vh;
     margin-left: 0;
-    margin-bottom: 0;
-    height: 5vi;
-    font-size: 4vi;
+    margin-right: 0;
+    margin-bottom: 3.5vh;
+    font-size: 2.7vh;
+    height: auto;
     width: 100%;
     text-align: center;
     background-color: black;
     color: white;
 }
 
-/* Тут всякий цвет у текста и уго размеры, вобщем такая мелочь */
+/* Тут всякий цвет у текста и его размеры, вобщем такая мелочь */
 
 .text_1 {
     display: flex;
@@ -136,15 +134,16 @@ body {
     padding-top: 2.5vh;
 }
 
-.text_down_1 {
-    padding: 1vw;
-    margin-left: 20vi;
-    margin-right: 20vi;
-    margin-top: 3vi;
-    font-size: 4vi;
+.text_down_1 {;
+    padding: 2.5vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 4vh;
+    font-size: 5vw;
     border: 2.5px solid rgba(0, 0, 0, 0.5);
     color: white;
     background-color: black;
+    border-radius: 20px;
 }
 .text_down_2 {
     padding: 2vw;
@@ -155,4 +154,19 @@ body {
     border: 2.5px solid rgba(0, 0, 0, 0.5);
     color: white;
     background-color: black;
+    border-radius: 20px;
+}
+#line-end {
+    padding: 0.5vi;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    height: 5vi;
+    font-size: 4vi;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
