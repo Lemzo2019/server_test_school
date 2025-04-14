@@ -43,11 +43,18 @@ body {
     margin-right: 2vi;      /* Отступ между изображением и текстом */
     margin-top: 2vi;
 }
+.img_big {
+    height: auto;
+    width: 85vw;
+    margin: 5vw;
+    border: solid 0px black;
+    border-radius: 20%;
+}
 
 
 .text_left {
     padding: 1.5vi;
-    font-size: 4vw;         /* Размер шрифта */
+    font-size: 2.5vh;         /* Размер шрифта */
     line-height: 2.5vh;        /* Межстрочный интервал */
     margin-right: 2vw;
     margin-top: 2vi;
@@ -75,7 +82,6 @@ body {
     margin-top: 4vh;
     margin-bottom: 3vh;
     font-size: 1.2rem;
-    border: 1px solid black;
     border-radius: 12px;
     color: #333;
     background: linear-gradient(135deg, #f5f7fa, #e2e6ea);
